@@ -1,0 +1,133 @@
+*{
+    margin: 0%;
+}
+
+    .panel{
+        height: 39px;
+        background-color: #493129;
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .button1 {
+        color: white;
+        background-color:#493129;
+        border: none;
+        font-size: medium;
+    }
+    .panel-all  :hover {
+        background-color:#493129;
+        color:#c3a87f;
+    }
+    .button2  :hover {
+      
+        color:#c3a87f;
+    }
+    .button{
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .sign-in{
+        background-color: #493129;
+        color: white;
+        
+    }
+    .button2  {
+        color: white;
+        background-color:#493129;
+        border: none;
+        font-size: medium;
+}
+.panel-ops p {
+    margin-left: 18px;
+    text-align: center;
+    }
+    .panel-ops{
+        width: 70%;
+        font-size: 0.85rem;
+    }
+    .panel-deals :hover{
+        
+        color: #c3a87f;
+    }
+    .panel-deals{
+        font: size 0.9em; ;
+        font-weight: 700;
+    }
+.java-con{
+    text-align: center;
+    height:400px;
+    color:#493129;
+
+}
+.java-con h1{
+    font-size: 80px;
+}
+.java-con p{
+    margin-left: 6rem;
+    text-align: left;
+    margin-top: 2rem;
+    font-size: 35px;
+    margin-right: 5rem;
+    margin-bottom: 3rem;
+}
+    .shop-section1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between 3rem;
+        height: 300px;
+        display: inline-flex;
+}
+.shop-section2{
+            margin-top: 5rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between 3rem; 
+            display: inline-flex;
+}
+    
+
+.box  {
+        height: 300px ;
+        width: 200px;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        background-color: transparent;
+    }
+.box-img {
+        height: 250px;
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 2px solid black;
+        background-color:white;
+        margin: 5px; /* Adjust spacing between images */
+        transition: transform 0.2s ease-in-out;
+        margin: 0 10px;
+
+    }
+
+.box-content{
+        margin-left: 2px;
+        margin-right: 2px;
+}
+.java-con h2  {
+    color:#493129;
+    
+    text-align: center;
+    margin-left:2rem;
+}
+.box-img:hover {
+    transform: translateY(-10px); /* Move image up on hover */
+}
+.foot{
+    height: 100px;
+    background-color: black;
+}
